@@ -1,0 +1,13 @@
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.exe
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.deps.json
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.dll
+C:\Users\koval\Desktop\epam\Ex\bin\Debug\netcoreapp3.1\Ex.pdb
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.dll
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.pdb
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.genruntimeconfig.cache
+C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Ex.csprojAssemblyReference.cache
