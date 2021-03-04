@@ -10,3 +10,16 @@ C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Lab_Strings.csproj.CoreCo
 C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Lab_Strings.dll
 C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Lab_Strings.pdb
 C:\Users\koval\Desktop\epam\Ex\obj\Debug\netcoreapp3.1\Lab_Strings.genruntimeconfig.cache
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.exe
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.deps.json
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.runtimeconfig.json
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.runtimeconfig.dev.json
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.dll
+C:\Users\koval\Desktop\buff\Lab_Strings\bin\Debug\netcoreapp3.1\Lab_Strings.pdb
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.AssemblyInfo.cs
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.dll
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.pdb
+C:\Users\koval\Desktop\buff\Lab_Strings\obj\Debug\netcoreapp3.1\Lab_Strings.genruntimeconfig.cache

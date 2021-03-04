@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 
-                    /*(Вариант 9) Дан текстовый файл Inlet.in, содержащий строковые величины S. В двух последних его строках
-                     находятся соответственно целочисленная величина k и символьная величина Буква.
-                    Определить количество слов этой величины, содержащий более k% буквы (от количества букв слова),
-                    значение которой хранит переменная Буква. Если
-                    этого сделать нельзя, в качестве ответа выдать значение –1.*/
+/*(Вариант 9) Дан текстовый файл Inlet.in, содержащий строковые величины S. В двух последних его строках
+ находятся соответственно целочисленная величина k и символьная величина Буква.
+Определить количество слов этой величины, содержащий более k% буквы (от количества букв слова),
+значение которой хранит переменная Буква. Если
+этого сделать нельзя, в качестве ответа выдать значение –1.*/
 
 namespace Ex
 {
@@ -25,11 +25,12 @@ namespace Ex
             int WordCounter = 0, numberOfLetters = 0;
             double NumberPerCent;
             string FileString;
-            string Path = @"C:\Users\koval\Desktop\epam\Ex\Inlet.in";
+            string PatIn = @"C:\Users\koval\Desktop\buff\Lab_Strings\Inlet.in";
+            string PatOut = @"C:\Users\koval\Desktop\buff\Lab_Strings\Outlet.in";
             string[] ModString;
             char[] Splt = { ' ', ',', '.', '\n' };
             char Letter;
-            using (var File = new StreamReader(Path))
+            using (var File = new StreamReader(PatIn))
             {
                 FileString = File.ReadToEnd();
             }
@@ -53,11 +54,12 @@ namespace Ex
             }
             if (WordCounter == 0)
             {
-                Console.WriteLine("-1");
+                WordCounter = -1;
             }
-            else
+            Console.WriteLine(WordCounter);
+            using (var file = new StreamWriter(PatOut, false))
             {
-                Console.WriteLine(WordCounter);
+                file.Write(WordCounter);
             }
         }
     }
