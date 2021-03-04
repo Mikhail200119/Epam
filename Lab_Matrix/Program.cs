@@ -15,7 +15,7 @@ namespace Lab_Mateix
         static void Main(string[] args)
         {
             int N = 0, M = 0, i = 0, j = 0, k;
-            int counter = 0, t = 0, number = 0, f = 0, buff = 0, Cash = 0;
+            int counter = 0, t = 0, number = 0, f = 0, buff = 0, Cache = 0;
             int[,] Matrix = new int[50, 50];
             int[] AuxiliaryArray = new int[50];
             string FileString, str;
@@ -65,9 +65,9 @@ namespace Lab_Mateix
             if (buff > M * N)
             {
                 buff = Math.Abs(M * N - k);
-                Cash = buff;
+                Cache = buff;
                 buff = k;
-                k = Cash;
+                k = Cache;
             }
             for (i = 0; i < N; i++)
             {
