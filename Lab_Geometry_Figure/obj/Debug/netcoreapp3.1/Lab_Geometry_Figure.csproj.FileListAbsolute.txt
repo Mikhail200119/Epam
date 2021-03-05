@@ -1,0 +1,13 @@
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.exe
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.deps.json
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.runtimeconfig.json
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.runtimeconfig.dev.json
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.dll
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\bin\Debug\netcoreapp3.1\Lab_Geometry_Figure.pdb
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.AssemblyInfo.cs
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.dll
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.pdb
+C:\Users\koval\Desktop\Epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.genruntimeconfig.cache
+C:\Users\koval\Desktop\epam\Lab_Geometry_Figure\obj\Debug\netcoreapp3.1\Lab_Geometry_Figure.csprojAssemblyReference.cache
