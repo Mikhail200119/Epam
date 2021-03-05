@@ -36,10 +36,6 @@ namespace Lab_Geometry_Figure
             }
 
             buff = StringFile.Split(' ');
-            /*Console.Write("Введите первый диаметр эллипса: ");
-            ellipse.D1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Введите второй диаметр эллипса: ");
-            ellipse.D2 = Convert.ToDouble(Console.ReadLine());*/
             ellipse.D1 = Convert.ToDouble(buff[0]);
             ellipse.D2 = Convert.ToDouble(buff[1]);
             if (ellipse.D1 <= 0 || ellipse.D2 <= 0)
