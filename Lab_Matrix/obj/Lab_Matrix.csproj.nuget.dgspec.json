@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Matrix\\Lab_Matrix.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Matrix\\Lab_Matrix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Matrix\\Lab_Matrix.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Matrix\\Lab_Matrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\buff\\Lab_Matrix\\Lab_Matrix.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Matrix\\Lab_Matrix.csproj",
         "projectName": "Lab_Matrix",
-        "projectPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Matrix\\Lab_Matrix.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Matrix\\Lab_Matrix.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Matrix\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Matrix\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

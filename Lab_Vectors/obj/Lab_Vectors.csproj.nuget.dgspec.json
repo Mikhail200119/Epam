@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Vectors\\Lab_Vectors.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Vectors\\Lab_Vectors.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Vectors\\Lab_Vectors.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Vectors\\Lab_Vectors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\buff\\Lab_Vectors\\Lab_Vectors.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Vectors\\Lab_Vectors.csproj",
         "projectName": "Lab_Vectors",
-        "projectPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Vectors\\Lab_Vectors.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Vectors\\Lab_Vectors.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Vectors\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Vectors\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

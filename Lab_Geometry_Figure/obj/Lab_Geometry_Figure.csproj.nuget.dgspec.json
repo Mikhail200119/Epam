@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj",
         "projectName": "Lab_Geometry_Figure",
-        "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Geometry_Figure\\Lab_Geometry_Figure.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Geometry_Figure\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Geometry_Figure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

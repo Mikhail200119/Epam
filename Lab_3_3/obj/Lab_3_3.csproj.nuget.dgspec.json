@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_3_3\\Lab_3_3.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_3\\Lab_3_3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_3_3\\Lab_3_3.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_3\\Lab_3_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab_3_3\\Lab_3_3.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_3\\Lab_3_3.csproj",
         "projectName": "Lab_3_3",
-        "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_3_3\\Lab_3_3.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_3\\Lab_3_3.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_3_3\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

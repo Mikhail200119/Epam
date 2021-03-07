@@ -7,6 +7,8 @@ using System.IO;
 значение которой хранит переменная Буква. Если
 этого сделать нельзя, в качестве ответа выдать значение –1.*/
 
+/*Файлы Inlet.in и Output.out находятся в каталоге проекта в папке \bin\Debug\netcoreapp3.1*/
+
 namespace Ex
 {
     class Program
@@ -25,12 +27,12 @@ namespace Ex
             int WordCounter = 0, numberOfLetters = 0;
             double NumberPerCent;
             string FileString;
-            string PatIn = @"C:\Users\koval\Desktop\buff\Lab_Strings\Inlet.in";
-            string PatOut = @"C:\Users\koval\Desktop\buff\Lab_Strings\Outlet.in";
+            string PatIn = "Inlet.in";
+            string PatOut = "Outlet.out";
             string[] ModString;
             char[] Splt = { ' ', ',', '.', '\n' };
             char Letter;
-            using (var File = new StreamReader(PatIn))
+            using (var File = new StreamReader(Path.GetFullPath(PatIn)))
             {
                 FileString = File.ReadToEnd();
             }
@@ -57,7 +59,7 @@ namespace Ex
                 WordCounter = -1;
             }
             Console.WriteLine(WordCounter);
-            using (var file = new StreamWriter(PatOut, false))
+            using (var file = new StreamWriter(Path.GetFullPath(PatOut), false))
             {
                 file.Write(WordCounter);
             }

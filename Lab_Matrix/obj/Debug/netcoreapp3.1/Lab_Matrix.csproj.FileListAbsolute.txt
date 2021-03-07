@@ -24,3 +24,16 @@ C:\Users\koval\Desktop\buff\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.csproj
 C:\Users\koval\Desktop\buff\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.dll
 C:\Users\koval\Desktop\buff\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.pdb
 C:\Users\koval\Desktop\buff\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.genruntimeconfig.cache
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.exe
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.deps.json
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.runtimeconfig.json
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.runtimeconfig.dev.json
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.dll
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\bin\Debug\netcoreapp3.1\Lab_Matrix.pdb
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.csprojAssemblyReference.cache
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.AssemblyInfoInputs.cache
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.AssemblyInfo.cs
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.csproj.CoreCompileInputs.cache
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.dll
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.pdb
+C:\Users\koval\Source\Repos\Epam\Lab_Matrix\obj\Debug\netcoreapp3.1\Lab_Matrix.genruntimeconfig.cache

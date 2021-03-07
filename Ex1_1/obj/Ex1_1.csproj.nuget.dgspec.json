@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\epam\\Ex1_1\\Ex1_1.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Ex1_1\\Ex1_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\epam\\Ex1_1\\Ex1_1.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Ex1_1\\Ex1_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Ex1_1\\Ex1_1.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Ex1_1\\Ex1_1.csproj",
         "projectName": "Ex1_1",
-        "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Ex1_1\\Ex1_1.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Ex1_1\\Ex1_1.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Ex1_1\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Ex1_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

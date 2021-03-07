@@ -3,18 +3,23 @@ using System.IO;
 
 namespace Lab_Vectors
 {
+    /*(Вариант 9) Дан линейный массив, содержащий N целых чисел.
+    Определить, количество таких элементов этого массива, которые не делятся на B и не делятся на C*/
+
+    /*Файлы Inlet.in и Output.out находятся в каталоге проекта в папке \bin\Debug\netcoreapp3.1*/
+
     class Program
     {
         static void Main(string[] args)
         {
-            string PathIn = @"C:\Users\koval\Desktop\buff\Lab_Vectors\Inlet.in.txt";
-            string PathOut = @"C:\Users\koval\Desktop\buff\Lab_Vectors\Outlet.in.txt";
+            string PathIn = "Inlet.in";
+            string PathOut = "Outlet.out";
             string FileArray;
             string[] ArrayString;
             int[] ArrayInt;
             int B, C, counter = 0;
 
-            using (var file = new StreamReader(PathIn))
+            using (var file = new StreamReader(Path.GetFullPath(PathIn)))
             {
                 FileArray = file.ReadToEnd();
             }
@@ -38,7 +43,7 @@ namespace Lab_Vectors
             }
             Console.WriteLine(counter);
 
-            using (var file = new StreamWriter(PathOut, false))
+            using (var file = new StreamWriter(Path.GetFullPath(PathOut), false))
             {
                 file.Write(counter);
             }

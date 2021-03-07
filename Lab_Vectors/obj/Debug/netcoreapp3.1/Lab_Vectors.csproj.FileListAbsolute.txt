@@ -11,3 +11,16 @@ C:\Users\koval\Desktop\buff\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.dll
 C:\Users\koval\Desktop\buff\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.pdb
 C:\Users\koval\Desktop\buff\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.genruntimeconfig.cache
 C:\Users\koval\Desktop\buff\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.exe
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.deps.json
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.runtimeconfig.json
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.runtimeconfig.dev.json
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.dll
+C:\Users\koval\Desktop\Epam\Lab_Vectors\bin\Debug\netcoreapp3.1\Lab_Vectors.pdb
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.AssemblyInfo.cs
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.dll
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.pdb
+C:\Users\koval\Desktop\Epam\Lab_Vectors\obj\Debug\netcoreapp3.1\Lab_Vectors.genruntimeconfig.cache

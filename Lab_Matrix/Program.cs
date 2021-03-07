@@ -1,17 +1,19 @@
 ﻿using System;
 using System.IO;
 
+/*(Вариант 9) Текстовый файл Inlet.in содержит целочисленные
+       значения элементов массива A[0..N-1, 0..M-1].
+       Осуществить циклический сдвиг элементов в строках
+       прямоугольной матрицы на k элементов вправо,
+       k может быть больше количества элементов в строке.
+       Результат решения задачи внести в файл Outlet.out.*/
+
+/*Файлы Inlet.in и Output.out находятся в каталоге проекта в папке \bin\Debug\netcoreapp3.1*/
+
 namespace Lab_Mateix
 {
     class Program
     {
-        /*(Вариант 9) Текстовый файл Inlet.in содержит целочисленные
-        значения элементов массива A[0..N-1, 0..M-1].
-        Осуществить циклический сдвиг элементов в строках
-        прямоугольной матрицы на k элементов вправо,
-        k может быть больше количества элементов в строке.
-        Результат решения задачи внести в файл Outlet.out.*/
-
         static void Main(string[] args)
         {
             int N = 0, M = 0, i = 0, j = 0, k;
@@ -22,9 +24,10 @@ namespace Lab_Mateix
             char[] splt = { ' ', '\n' };
             string[] FileMatrix;
             string[] BuffMatrix;
-            string PathIn = @"C:\Users\koval\Desktop\buff\Lab_Matrix\Inlet.in";
-            string PathOut = @"C:\Users\koval\Desktop\buff\Lab_Matrix\Outlet.in";
-            using (var file = new StreamReader(PathIn))
+            string PathIn = "Inlet.in";
+            string PathOut = "Outlet.out";
+            string path = Path.GetFullPath(PathIn);
+            using (var file = new StreamReader(path))
             {
                 str = file.ReadToEnd();
                 file.Close();

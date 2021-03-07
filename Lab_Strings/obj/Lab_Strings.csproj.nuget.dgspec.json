@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Strings\\Lab_Strings.csproj": {}
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Strings\\Lab_Strings.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\buff\\Lab_Strings\\Lab_Strings.csproj": {
+    "C:\\Users\\koval\\Desktop\\Epam\\Lab_Strings\\Lab_Strings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\buff\\Lab_Strings\\Lab_Strings.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Strings\\Lab_Strings.csproj",
         "projectName": "Lab_Strings",
-        "projectPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Strings\\Lab_Strings.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Strings\\Lab_Strings.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\buff\\Lab_Strings\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Strings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

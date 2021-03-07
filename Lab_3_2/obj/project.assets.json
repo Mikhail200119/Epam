@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab3_2\\Lab_3_2.csproj",
+      "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_2\\Lab_3_2.csproj",
       "projectName": "Lab_3_2",
-      "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab3_2\\Lab_3_2.csproj",
+      "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_2\\Lab_3_2.csproj",
       "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab3_2\\obj\\",
+      "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_3_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",
