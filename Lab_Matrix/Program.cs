@@ -26,8 +26,7 @@ namespace Lab_Mateix
             string[] BuffMatrix;
             string PathIn = "Inlet.in";
             string PathOut = "Outlet.out";
-            string path = Path.GetFullPath(PathIn);
-            using (var file = new StreamReader(path))
+            using (var file = new StreamReader(Path.GetFullPath(PathIn)))
             {
                 str = file.ReadToEnd();
                 file.Close();
@@ -111,7 +110,7 @@ namespace Lab_Mateix
                 }
                 Console.WriteLine("\n");
             }
-            using (var file = new StreamWriter(PathOut, false))
+            using (var file = new StreamWriter(Path.GetFullPath(PathOut), false))
             {
                 for (i = 0; i < N; i++)
                 {
