@@ -79,7 +79,7 @@ namespace Lab_Geometry_Figure
             else
             {
                 Console.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
-                Console.WriteLine("Площадь эллипса: " + ellipse.P_Ellipse());
+                Console.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
             }
 
             using (var file = new StreamWriter(Path.GetFullPath(PathOut), false))
