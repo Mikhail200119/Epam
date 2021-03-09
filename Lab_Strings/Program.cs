@@ -25,7 +25,7 @@ namespace Ex
         static void Main(string[] args)
         {
             int WordCounter = 0, numberOfLetters = 0;
-            double NumberPerCent;
+            double NumberPerCent = 0;
             string FileString;
             string PatIn = "Inlet.in";
             string PatOut = "Outlet.out";
@@ -36,9 +36,11 @@ namespace Ex
             {
                 FileString = File.ReadToEnd();
             }
+            FileString.ToLower();
             ModString = FileString.Split(Splt);
-            Letter = ModString[ModString.Length - 2][0];
             NumberPerCent = int.Parse(ModString[ModString.Length - 1]);
+            Letter = ModString[ModString.Length - 2][0];
+            Letter = char.ToLower(Letter);
             for (int i = 0; i < ModString.Length; i++)
             {
                 numberOfLetters = 0;
@@ -46,6 +48,7 @@ namespace Ex
                 {
                     if (ModString[i][j] == Letter)
                     {
+                        Console.WriteLine(ModString[i]);
                         numberOfLetters++;
                     }
                 }

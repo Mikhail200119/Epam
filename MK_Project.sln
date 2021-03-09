@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_3_2", "Lab_3_2\Lab_3_2.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_Geometry_Figure", "Lab_Geometry_Figure\Lab_Geometry_Figure.csproj", "{BE8E4311-3532-4B17-B1D1-7543F8799886}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_Class_Vectors", "Lab_Class_Vectors\Lab_Class_Vectors.csproj", "{D01A5B5B-8605-4629-8AE1-64752D54F03F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{BE8E4311-3532-4B17-B1D1-7543F8799886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8E4311-3532-4B17-B1D1-7543F8799886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8E4311-3532-4B17-B1D1-7543F8799886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01A5B5B-8605-4629-8AE1-64752D54F03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01A5B5B-8605-4629-8AE1-64752D54F03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01A5B5B-8605-4629-8AE1-64752D54F03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01A5B5B-8605-4629-8AE1-64752D54F03F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

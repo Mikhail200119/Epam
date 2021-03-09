@@ -14,33 +14,52 @@ WinForms или WPF-приложение.
 /*Файлы Inlet.in и Output.out находятся в каталоге проекта в папке \bin\Debug\netcoreapp3.1*/
 
 namespace Lab_Geometry_Figure
-{ 
+{
     class Ellipse
     {
-        public double D1;
-        public double D2;
+        private double D1;
+
+        private double D2;
+
+        public Ellipse(double D1, double D2)
+        {
+            this.D1 = D1;
+            this.D2 = D2;
+        }
+
+        public int DataChecking
+        {
+            get
+            {
+                if (D1 <= 0 || D2 <= 0) 
+                {
+                    return -1;
+                }
+                return 1;
+            }
+        }
+
+        public double S_Ellipse()
+        {
+            return Math.PI * D1 * D2 / 4;
+        }
+
+        public double P_Ellipse()
+        {
+            return 4 * (Math.PI * D1 * D2 + Math.Pow(D1 - D2, 2)) / (D1 + D2);
+        }
     }
 
     class Program
-    { 
-
-        static double S_Ellipse(double a, double b)
-        {
-            return Math.PI * a * b / 4;
-        }
-
-        static double P_Ellipse(double a, double b)
-        {
-            return 4 * (Math.PI * a * b + Math.Pow(a - b, 2)) / (a + b);
-        }
-
+    {
         static int Main(string[] args)
         {
+            double D1, D2;
             string PathIn = "Inlet.in";
-            string PathOut = "Outlet.in";
+            string PathOut = "Outlet.out";
             string StringFile;
             string[] buff;
-            Ellipse ellipse = new Ellipse();
+            Ellipse ellipse;
 
             using (var file = new StreamReader(Path.GetFullPath(PathIn)))
             {
@@ -48,23 +67,25 @@ namespace Lab_Geometry_Figure
             }
 
             buff = StringFile.Split(' ');
-            ellipse.D1 = Convert.ToDouble(buff[0]);
-            ellipse.D2 = Convert.ToDouble(buff[1]);
-            Console.WriteLine("Первый диаметр: " + ellipse.D1);
-            Console.WriteLine("Второй диаметр: " + ellipse.D2);
-            if (ellipse.D1 <= 0 || ellipse.D2 <= 0)
+            D1 = double.Parse(buff[0]);
+            D2 = double.Parse(buff[1]);
+            ellipse = new Ellipse(D1, D2);
+
+            if (ellipse.DataChecking == -1)
             {
-                Console.WriteLine("Данные введены некорректно!");
+                Console.WriteLine("Входные данные некорректны!!");
                 return 0;
             }
-
-            Console.WriteLine("Площадь эллипса: " + S_Ellipse(ellipse.D1, ellipse.D2));
-            Console.WriteLine("Периметр эллипса: " + P_Ellipse(ellipse.D1, ellipse.D2));
+            else
+            {
+                Console.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
+                Console.WriteLine("Площадь эллипса: " + ellipse.P_Ellipse());
+            }
 
             using (var file = new StreamWriter(Path.GetFullPath(PathOut), false))
             {
-                file.WriteLine("Площадь эллипса: " + S_Ellipse(ellipse.D1, ellipse.D2));
-                file.WriteLine("Периметр эллипса: " + P_Ellipse(ellipse.D1, ellipse.D2));
+                file.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
+                file.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
             }
             return 0;
         }
