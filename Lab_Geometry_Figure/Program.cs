@@ -21,22 +21,51 @@ namespace Lab_Geometry_Figure
 
         private double D2;
 
-        public Ellipse(double D1, double D2)
-        {
-            this.D1 = D1;
-            this.D2 = D2;
-        }
-
-        public int DataChecking
+        public double D1_DataChecking
         {
             get
             {
-                if (D1 <= 0 || D2 <= 0) 
+                if (D1 <= 0)
                 {
                     return -1;
                 }
-                return 1;
+                return D1;
             }
+            set
+            {
+                D1 = value;
+                if (D1 <= 0)
+                {
+                    Console.WriteLine("Первая диагональ задана некорректно");
+                }
+            }
+        }
+
+        public double D2_DataChecking
+        {
+            get
+            {
+                if (D2 <= 0)
+                {
+                    return -1;
+                }
+                return D2;
+            }
+            set
+            {
+                D2 = value;
+                if (D2 <= 0)
+                {
+                    Console.WriteLine("Вторая диагональ задана некорректно");
+                }
+            }
+        }
+
+
+        public Ellipse(double D1, double D2)
+        {
+            D1_DataChecking = D1;
+            D2_DataChecking = D2;
         }
 
         public double S_Ellipse()
@@ -64,28 +93,30 @@ namespace Lab_Geometry_Figure
             using (var file = new StreamReader(Path.GetFullPath(PathIn)))
             {
                 StringFile = file.ReadToEnd();
+                file.Close();
             }
-
             buff = StringFile.Split(' ');
-            D1 = double.Parse(buff[0]);
-            D2 = double.Parse(buff[1]);
-            ellipse = new Ellipse(D1, D2);
-
-            if (ellipse.DataChecking == -1)
+            try
             {
-                Console.WriteLine("Входные данные некорректны!!");
+                D1 = double.Parse(buff[0]);
+                D2 = double.Parse(buff[1]);
+            }
+            catch
+            {
+                Console.WriteLine("Ошибка считывания данных!");
                 return 0;
             }
-            else
-            {
-                Console.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
-                Console.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
-            }
-
+            ellipse = new Ellipse(D1, D2);
             using (var file = new StreamWriter(Path.GetFullPath(PathOut), false))
             {
-                file.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
-                file.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
+                if (ellipse.D1_DataChecking != -1 && ellipse.D2_DataChecking != -1)
+                {
+                    Console.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
+                    Console.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
+                    file.WriteLine("Площадь эллипса: " + ellipse.S_Ellipse());
+                    file.WriteLine("Периметр эллипса: " + ellipse.P_Ellipse());
+                }
+                file.Close();
             }
             return 0;
         }
