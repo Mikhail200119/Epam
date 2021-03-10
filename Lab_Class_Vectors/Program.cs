@@ -71,6 +71,13 @@ namespace Lab_Class_Vectors
             Console.Write("Difference: ");
             Difference.PrintVector();
             Console.WriteLine("Scalar multiply: " + ScalarMultiply);
+
+            using (var file = new StreamWriter(Path.GetFullPath("Outlet.out"), false))
+            {
+                file.WriteLine("Сумма векторов: " + Sum.ToString());
+                file.WriteLine("Разность векоров: " + Difference.ToString());
+                file.Write("Скалярное произведение векторов: " + ScalarMultiply);
+            }
         }
     }
 }
