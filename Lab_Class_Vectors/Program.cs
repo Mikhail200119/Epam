@@ -17,7 +17,12 @@ namespace Lab_Class_Vectors
             ModuleOfVector = Math.Sqrt(Math.Pow(this.x, 2) + Math.Pow(this.y, 2) + Math.Pow(this.z, 2));
         }
 
-        public override string ToString()
+        public static explicit operator string(Vector V)
+        {
+            return V.toString();
+        }
+
+        private string toString()
         {
             return $"( {x} ; {y} ; {z} )";
         }
@@ -36,7 +41,7 @@ namespace Lab_Class_Vectors
         }
         public void PrintVector()
         {
-            Console.WriteLine(ToString());
+            Console.WriteLine(toString());
         }
     }
 
@@ -71,6 +76,9 @@ namespace Lab_Class_Vectors
             Console.Write("Difference: ");
             Difference.PrintVector();
             Console.WriteLine("Scalar multiply: " + ScalarMultiply);
+            Vector D = A + B;
+            string str = (string)D;
+            Console.WriteLine(str);
 
             using (var file = new StreamWriter(Path.GetFullPath("Outlet.out"), false))
             {
