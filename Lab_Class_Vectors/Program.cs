@@ -78,7 +78,7 @@ namespace Lab_Class_Vectors
             Console.WriteLine("Scalar multiply: " + ScalarMultiply);
             Vector D = A + B;
             string str = (string)D;
-            Console.WriteLine(str);
+            Console.WriteLine("Переопределение Vector в string: " + str);
 
             using (var file = new StreamWriter(Path.GetFullPath("Outlet.out"), false))
             {
