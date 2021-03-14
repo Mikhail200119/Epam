@@ -1,0 +1,13 @@
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.exe
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.deps.json
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.dll
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\bin\Debug\netcoreapp3.1\Lab_Class_Polynomials.pdb
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.dll
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.pdb
+C:\Users\koval\Desktop\epam\Lab_Class_Polynomials\obj\Debug\netcoreapp3.1\Lab_Class_Polynomials.genruntimeconfig.cache
