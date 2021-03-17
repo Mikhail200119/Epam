@@ -1,0 +1,13 @@
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.exe
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.deps.json
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.dll
+C:\Users\koval\Desktop\epam\Lab_Exceptions\bin\Debug\netcoreapp3.1\Lab_Exceptions.pdb
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.dll
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.pdb
+C:\Users\koval\Desktop\epam\Lab_Exceptions\obj\Debug\netcoreapp3.1\Lab_Exceptions.genruntimeconfig.cache
