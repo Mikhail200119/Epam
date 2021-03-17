@@ -12,9 +12,9 @@ o	Нужно создать разные виды конструкторов п�
 
 namespace Lab_Exceptions
 {
-    class NewException : Exception
+    class WrongMatrixException : Exception
     {
-        public NewException(Matrix M1, Matrix M2)
+        public WrongMatrixException(Matrix M1, Matrix M2)
         {
             Length1 = M1.Length;
             Width1 = M1.Width;
@@ -126,7 +126,7 @@ namespace Lab_Exceptions
             if (M1.Length != M2.Width)
             {
                 Console.WriteLine("Ошибка!");
-                throw new NewException(M1, M2);
+                throw new WrongMatrixException(M1, M2);
             }
             Matrix ResultMatrix;
             int[,] ResMatrix = new int[M1.M, M2.N];
