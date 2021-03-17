@@ -10,6 +10,8 @@ o	Также размеры матриц должны быть в полях и�
 o	Нужно создать разные виды конструкторов по примеру базового исключения System.Exception
 •	В качестве UI-интерфейса использовать консольное приложение с интерфейсом командной строки, WinForms или WPF-приложение.*/
 
+/*Файл Inlet.in: \bin\Debug\netcoreapp3.1*/
+
 namespace Lab_Exceptions
 {
     class WrongMatrixException : Exception
@@ -232,8 +234,15 @@ namespace Lab_Exceptions
             }
             Matrix Matrix1 = new Matrix(Matrix_1, M1, N1);
             Matrix Matrix2 = new Matrix(Matrix_2, M2, N2);
-            Matrix Res = Matrix.Multipication(Matrix1, Matrix2);
-            Res.PrintMatrix();
+            Matrix MatrixSum, MatrixMultiplication, MatrixDifferent;
+            MatrixSum = Matrix.Summ(Matrix1, Matrix2);
+            MatrixDifferent = Matrix.Diff(Matrix1, Matrix2);
+            MatrixMultiplication = Matrix.Multipication(Matrix1, Matrix2);
+            MatrixSum.PrintMatrix();
+            Console.WriteLine();
+            MatrixDifferent.PrintMatrix();
+            Console.WriteLine();
+            MatrixMultiplication.PrintMatrix();
         }
     }
 }
