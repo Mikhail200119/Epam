@@ -1,48 +1,28 @@
 ﻿using System;
 using System.Threading;
+using PingPong;
 
 namespace Lab_Delegates
 {
-    public delegate void Delegate();
-
-    class Ping
-    {
-        private static int Counter = 1;
-
-        public static void PrintPing()
-        {
-            Console.Write($"{Counter}. Pong received Ping\n");
-            Counter += 2;
-            Thread.Sleep(360);
-        }
-    }
-
-    class Pong
-    {
-        private static int Counter = 2;
-
-        public static void PrintPong()
-        {
-            Console.Write($"{Counter}. Ping received Pong\n");
-            Counter += 2;
-            Thread.Sleep(360);
-        }
-    }
-
     class Program
     {
-        static void Main(string[] args)
+        static void StartGame(Ping A, Pong B)
         {
-            Delegate del;
-            Random random = new Random();
-            del = new Delegate(Ping.PrintPing);
-            del += Pong.PrintPong;
-            int i = 0;
-            while (i < 3)
+            Random rand = new Random();
+            int HitNumber = rand.Next(2, 4);
+            for (int i = 0; i < HitNumber; i++)
             {
-                del();
-                i++;
+                A.OnPing();
+                B.OnPong();
             }
         }
+
+        static void Main(string[] args)
+        {
+            Ping A = new Ping();
+            Pong B = new Pong();
+            StartGame(A, B);
+        }
     }
+
 }
