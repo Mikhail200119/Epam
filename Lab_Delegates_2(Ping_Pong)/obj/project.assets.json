@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab_Delegates\\Lab_Delegates_2(Ping_Pong).csproj",
+      "projectUniqueName": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Delegates_2(Ping_Pong)\\Lab_Delegates_2(Ping_Pong).csproj",
       "projectName": "Lab_Delegates_2(Ping_Pong)",
-      "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Delegates\\Lab_Delegates_2(Ping_Pong).csproj",
+      "projectPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Delegates_2(Ping_Pong)\\Lab_Delegates_2(Ping_Pong).csproj",
       "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Delegates\\obj\\",
+      "outputPath": "C:\\Users\\koval\\Desktop\\Epam\\Lab_Delegates_2(Ping_Pong)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

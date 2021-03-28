@@ -1,0 +1,12 @@
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).exe
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).deps.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).dll
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\bin\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).pdb
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).dll
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).pdb
+C:\Users\koval\Desktop\epam\Lab_Delegates_2(Ping_Pong)\obj\Debug\netcoreapp3.1\Lab_Delegates_2(Ping_Pong).genruntimeconfig.cache

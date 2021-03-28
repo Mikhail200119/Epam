@@ -22,7 +22,7 @@ namespace Lab_Delegates
         {
             Random rand = new Random();
             int HitCounter = 1;
-            int HitNumber = rand.Next(2, 4);
+            int HitNumber = rand.Next(3, 5);
             for (int i = 0; i < HitNumber; i++)
             {
                 Console.Write(HitCounter + ". ");
