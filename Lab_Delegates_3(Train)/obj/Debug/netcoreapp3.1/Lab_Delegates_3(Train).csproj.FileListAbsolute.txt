@@ -1,0 +1,12 @@
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).exe
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).deps.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).dll
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\bin\Debug\netcoreapp3.1\Lab_Delegates_3(Train).pdb
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).dll
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).pdb
+C:\Users\koval\Desktop\epam\Lab_Delegates_3(Train)\obj\Debug\netcoreapp3.1\Lab_Delegates_3(Train).genruntimeconfig.cache
