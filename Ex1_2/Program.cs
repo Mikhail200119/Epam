@@ -42,7 +42,7 @@ namespace MK_Project2
             uint number;
             string str;
             Console.Write("Введите целое десятичное беззнаковое число: ");
-            number = Convert.ToInt32(Console.ReadLine());
+            number = uint.Parse(Console.ReadLine());
             str = Convert.ToString(number, 2);
             Console.WriteLine(ConvertNumberToBinary(number));
             Console.WriteLine(str);
