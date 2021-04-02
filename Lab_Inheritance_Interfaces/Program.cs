@@ -103,12 +103,14 @@ namespace Lab_Inheritance_Interfaces
             SyntaxString = Console.ReadLine();
             Console.Write("Введите язык программирования: ");
             LanguageString = Console.ReadLine();
+            ProgramConverter Object;
 
             for (int i = 0; i < Elements.Length; i++)
             {
-                if (Elements[i] as ICodeChecker != null)
+                Object = Elements[i] as ProgramHelper;
+                if (Object != null) 
                 {
-                    Console.WriteLine($"{i + 1}. Реализует интерфейс ICodeChecker:");
+                    Console.WriteLine($"{i + 1}.{Elements[i].GetType()} реализует интерфейс ICodeChecker:");
                     ProgramHelper Helper = new ProgramHelper();
                     if (Helper.CheckCodeSyntax(SyntaxString, LanguageString))
                     {
@@ -128,7 +130,8 @@ namespace Lab_Inheritance_Interfaces
                 }
                 else
                 {
-                    Console.WriteLine($"{i + 1}. Не реализует интерфейс ICodeChecker => выполняется два метода преобразования:");
+                    Console.WriteLine($"{i + 1}.{Elements[i].GetType()} не реализует интерфейс ICodeChecker => " +
+                        $"выполняется два метода преобразования:");
                     Console.WriteLine(Elements[i].ConvertToSharp(SyntaxString));
                     Console.WriteLine(Elements[i].ConvertToVB(SyntaxString));
                 }

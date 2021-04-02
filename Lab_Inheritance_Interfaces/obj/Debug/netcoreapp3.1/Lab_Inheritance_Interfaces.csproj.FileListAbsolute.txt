@@ -11,3 +11,16 @@ C:\Users\koval\Desktop\epam\Lab_Ingeritance_Interfaces\obj\Debug\netcoreapp3.1\L
 C:\Users\koval\Desktop\epam\Lab_Ingeritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.dll
 C:\Users\koval\Desktop\epam\Lab_Ingeritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.pdb
 C:\Users\koval\Desktop\epam\Lab_Ingeritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.genruntimeconfig.cache
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.exe
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.deps.json
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.dll
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\bin\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.pdb
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.dll
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.pdb
+C:\Users\koval\Desktop\epam\Lab_Inheritance_Interfaces\obj\Debug\netcoreapp3.1\Lab_Inheritance_Interfaces.genruntimeconfig.cache
