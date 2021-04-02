@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_Ingeritance_Interfaces\\Lab_Inheritance_Interfaces.csproj": {}
+    "C:\\Users\\koval\\Desktop\\epam\\Lab_Inheritance_Interfaces\\Lab_Inheritance_Interfaces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\koval\\Desktop\\epam\\Lab_Ingeritance_Interfaces\\Lab_Inheritance_Interfaces.csproj": {
+    "C:\\Users\\koval\\Desktop\\epam\\Lab_Inheritance_Interfaces\\Lab_Inheritance_Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab_Ingeritance_Interfaces\\Lab_Inheritance_Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\koval\\Desktop\\epam\\Lab_Inheritance_Interfaces\\Lab_Inheritance_Interfaces.csproj",
         "projectName": "Lab_Inheritance_Interfaces",
-        "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Ingeritance_Interfaces\\Lab_Inheritance_Interfaces.csproj",
+        "projectPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Inheritance_Interfaces\\Lab_Inheritance_Interfaces.csproj",
         "packagesPath": "C:\\Users\\koval\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Ingeritance_Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\koval\\Desktop\\epam\\Lab_Inheritance_Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\koval\\AppData\\Roaming\\NuGet\\NuGet.Config",

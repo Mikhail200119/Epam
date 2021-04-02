@@ -86,56 +86,51 @@ namespace Lab_Inheritance_Interfaces
     {
         static void Main(string[] args)
         {
-            ProgramHelper[] Element_1 = new ProgramHelper[5];
-            ProgramConverter[] Element_2 = new ProgramConverter[5];
-            string CodeString, Language;
-            Console.Write("Write code string: ");
-            CodeString = Console.ReadLine();
-            Console.Write("Write programming language: ");
-            Language = Console.ReadLine();
-            Console.WriteLine("ProgramHelper:");
-            for (int i = 0; i < Element_1.Length; i++)
+            string SyntaxString, LanguageString;
+
+            ProgramConverter[] Elements =
             {
-                Element_1[i] = new ProgramHelper();
-                if (Element_1[i] is ICodeChecker)
+                new ProgramHelper(),
+                new ProgramConverter(),
+                new ProgramConverter(),
+                new ProgramHelper(),
+                new ProgramConverter(),
+                new ProgramHelper(),
+                new ProgramHelper()
+            };
+
+            Console.Write("Введите кодовую строку: ");
+            SyntaxString = Console.ReadLine();
+            Console.Write("Введите язык программирования: ");
+            LanguageString = Console.ReadLine();
+
+            for (int i = 0; i < Elements.Length; i++)
+            {
+                if (Elements[i] as ICodeChecker != null)
                 {
-                    if (Element_1[i].CheckCodeSyntax(CodeString, Language))
+                    Console.WriteLine($"{i + 1}. Реализует интерфейс ICodeChecker:");
+                    ProgramHelper Helper = new ProgramHelper();
+                    if (Helper.CheckCodeSyntax(SyntaxString, LanguageString))
                     {
-                        if (Language == "C#")
+                        if (LanguageString == "C#")
                         {
-                            Console.WriteLine(Element_1[i].ConvertToVB(CodeString));
+                            Console.WriteLine(Elements[i].ConvertToVB(SyntaxString));
                         }
-                        else if (Language == "VB")
+                        else if (LanguageString == "VB")
                         {
-                            Console.WriteLine(Element_1[i].ConvertToSharp(CodeString));
+                            Console.WriteLine(Elements[i].ConvertToSharp(SyntaxString));
                         }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Неправильный язык программирования!");
                     }
                 }
                 else
                 {
-                    Console.WriteLine(Element_1[i].ConvertToSharp(CodeString));
-                    Console.WriteLine(Element_1[i].ConvertToVB(CodeString));
-                }
-            }
-            Console.WriteLine("ProgramConverter:");
-            for (int i = 0; i < Element_2.Length; i++)
-            {
-                Element_2[i] = new ProgramConverter();
-                if (!(Element_2[i] is ICodeChecker))
-                {
-                    if (Language == "C#")
-                    {
-                        Console.WriteLine(Element_2[i].ConvertToVB(CodeString));
-                    }
-                    else if (Language == "VB")
-                    {
-                        Console.WriteLine(Element_2[i].ConvertToSharp(CodeString));
-                    }
-                }
-                else
-                {
-                    Console.WriteLine(Element_2[i].ConvertToSharp(CodeString));
-                    Console.WriteLine(Element_2[i].ConvertToVB(CodeString));
+                    Console.WriteLine($"{i + 1}. Не реализует интерфейс ICodeChecker => выполняется два метода преобразования:");
+                    Console.WriteLine(Elements[i].ConvertToSharp(SyntaxString));
+                    Console.WriteLine(Elements[i].ConvertToVB(SyntaxString));
                 }
             }
         }
