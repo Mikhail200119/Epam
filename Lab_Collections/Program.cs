@@ -21,7 +21,7 @@ where + select + orderBy, first + any + min).
 
 namespace Lab_Collections
 {  
-    class EllipseCollection<TKey, TValue> : List<Ellipse<double>> where TValue:Ellipse<double>
+    class EllipseCollection<TKey, TValue> : List<Ellipse<double>> where TValue:Ellipse<double>  //Задание 1
     {
         public int Length { get; private set; } = 0;
 
@@ -178,9 +178,9 @@ namespace Lab_Collections
                 Collection.Add(i + 1, new Ellipse<double>(i + 1, i + 1));
             }
             Collection.WriteToFile();
-            var NegativeColletion = Collection.Elements.Where(i => i.Value.SomeNumber < 0);
-            var MinValue = NegativeColletion.Min(num => num.Value.SomeNumber);
-            var MaxValue = NegativeColletion.Max(num => num.Value.SomeNumber);
+            var NegativeColletion = Collection.Elements.Where(i => i.Value.SomeNumber < 0);        //
+            var MinValue = NegativeColletion.Min(num => num.Value.SomeNumber);                    //    Задание 2
+            var MaxValue = NegativeColletion.Max(num => num.Value.SomeNumber);                   //
             Console.WriteLine("Числа из класса Ellipse: \n");
             foreach (var item in Collection.Elements)
             {
@@ -195,7 +195,7 @@ namespace Lab_Collections
             Console.WriteLine($"Максимальное отрицательное число: {MaxValue}\n" +
                 $"Минимальное отрицательное число: {MinValue}");
 
-            var GeneraCollection = Collection.Elements.Where(i => i.Value.SomeNumber > 0).
+            var GeneraCollection = Collection.Elements.Where(i => i.Value.SomeNumber > 0).  //Задание 3
                 OrderBy(i => i.Value.SomeNumber).Distinct().Take(2);
 
             Console.WriteLine("\n\nМинимум 2 положительных элементов коллекции без повторений: \n");
