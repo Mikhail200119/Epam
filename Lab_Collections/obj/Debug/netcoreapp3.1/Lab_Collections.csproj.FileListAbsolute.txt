@@ -1,0 +1,13 @@
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.exe
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.deps.json
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.dll
+C:\Users\koval\Desktop\epam\Lab_Collections\bin\Debug\netcoreapp3.1\Lab_Collections.pdb
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.dll
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.pdb
+C:\Users\koval\Desktop\epam\Lab_Collections\obj\Debug\netcoreapp3.1\Lab_Collections.genruntimeconfig.cache
