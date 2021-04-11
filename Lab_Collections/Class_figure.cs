@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Figure
 {
-    class Ellipse<T> : IComparable<T>
+    class Ellipse : IComparable<Ellipse> 
     {
         private double D1;
 
@@ -77,9 +77,9 @@ namespace Figure
             }
         }
 
-        public int CompareTo(T Obj)
+        public int CompareTo(Ellipse Obj)
         {
-            if (Obj is Ellipse<T>)
+            if (D1 == Obj.D1 && D2 == Obj.D2)
             {
                 return 1;
             }

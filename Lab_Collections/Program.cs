@@ -21,7 +21,7 @@ where + select + orderBy, first + any + min).
 
 namespace Lab_Collections
 {  
-    class EllipseCollection<TKey, TValue> : List<Ellipse<double>> where TValue:Ellipse<double>  //Задание 1
+    class EllipseCollection<TKey, TValue> : List<Ellipse> where TValue:Ellipse  //Задание 1
     {
         public int Length { get; private set; } = 0;
 
@@ -172,10 +172,10 @@ namespace Lab_Collections
     {
         static void Main(string[] args)
         {
-            EllipseCollection<int, Ellipse<double>> Collection = new EllipseCollection<int, Ellipse<double>>();
+            EllipseCollection<int, Ellipse> Collection = new EllipseCollection<int, Ellipse>();
             for (int i = 0; i < 15; i++)
             {
-                Collection.Add(i + 1, new Ellipse<double>(i + 1, i + 1));
+                Collection.Add(i + 1, new Ellipse(i + 1, i + 1));
             }
             Collection.WriteToFile();
             var NegativeColletion = Collection.Elements.Where(i => i.Value.SomeNumber < 0);        //
@@ -203,6 +203,8 @@ namespace Lab_Collections
             {
                 Console.WriteLine(item.Value.SomeNumber);
             }
+
+            Console.WriteLine("\n\nCompareTo: " + Collection.Elements[0].Value.CompareTo(new Ellipse(1, 1)));   //CompareTo()
         }
     }
 }
