@@ -76,11 +76,11 @@ namespace Lab_Collections
                 {
                     Elements = new Element[Length];
                 }
-                this[Length - 1] = new Element(Key, Value, Length - 1);
+                this[Length - 1] = new Element(Key, Value);
             }
             else
             {
-                this[Length - 1] = new Element(Key, Value, Length - 1);
+                this[Length - 1] = new Element(Key, Value);
             }
         }
 
@@ -109,6 +109,26 @@ namespace Lab_Collections
                 }
             }
             Elements = Buff;
+        }
+
+        public void SortByArea()
+        {
+            for (int i = 0; i < Elements.Length; i++)
+            {
+                for (int j = Elements.Length - 1; j > i; j--)
+                {
+                    if (Elements[j].Value.S_Ellipse < Elements[j - 1].Value.S_Ellipse)
+                    {
+                        Element Buff = new Element(Elements[0].Key, Elements[0].Value);
+                        Buff.Key = Elements[j].Key;
+                        Buff.Value = Elements[j].Value;
+                        Elements[j].Key = Elements[j - 1].Key;
+                        Elements[j].Value = Elements[j - 1].Value;
+                        Elements[j - 1].Key = Buff.Key;
+                        Elements[j - 1].Value = Buff.Value;
+                    }
+                }
+            }
         }
 
         public bool MoveNext()
@@ -160,7 +180,7 @@ namespace Lab_Collections
             public TKey Key;
             public TValue Value;
 
-            public Element(TKey Key, TValue Value, int Index)
+            public Element(TKey Key, TValue Value)
             {
                 this.Key = Key;
                 this.Value = Value;
@@ -173,11 +193,32 @@ namespace Lab_Collections
         static void Main(string[] args)
         {
             EllipseCollection<int, Ellipse> Collection = new EllipseCollection<int, Ellipse>();
-            for (int i = 0; i < 15; i++)
+
+            Random Rand = new Random();
+
+            for (int i = 0; i < Rand.Next(10, 30); i++)
             {
-                Collection.Add(i + 1, new Ellipse(i + 1, i + 1));
+                Collection.Add(Rand.Next(10, 30), new Ellipse(Rand.Next(1, 10), Rand.Next(1, 10)));
             }
+
+            Console.WriteLine("Площади эллипсов:");
+
+            foreach (var item in Collection.Elements)
+            {
+                Console.WriteLine(item.Value.S_Ellipse);
+            }
+
+            Console.WriteLine("Sorted...\n");
+
+            Collection.SortByArea();
+
+            foreach (var item in Collection.Elements)
+            {
+                Console.WriteLine(item.Value.S_Ellipse);
+            }
+
             Collection.WriteToFile();
+
             var NegativeColletion = Collection.Elements.Where(i => i.Value.SomeNumber < 0);        //
             var MinValue = NegativeColletion.Min(num => num.Value.SomeNumber);                    //    Задание 2
             var MaxValue = NegativeColletion.Max(num => num.Value.SomeNumber);                   //
@@ -196,9 +237,9 @@ namespace Lab_Collections
                 $"Минимальное отрицательное число: {MinValue}");
 
             var GeneraCollection = Collection.Elements.Where(i => i.Value.SomeNumber > 0).  //Задание 3
-                OrderBy(i => i.Value.SomeNumber).Distinct().Take(2);
+                OrderBy(i => i.Value.SomeNumber).Distinct().Take(Collection.Elements.Length);
 
-            Console.WriteLine("\n\nМинимум 2 положительных элементов коллекции без повторений: \n");
+            Console.WriteLine("\n\nПоложительные элементы коллекции без повторений, расположенные по возрастанию: \n");
             foreach (var item in GeneraCollection)
             {
                 Console.WriteLine(item.Value.SomeNumber);
