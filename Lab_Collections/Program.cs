@@ -20,8 +20,8 @@ where + select + orderBy, first + any + min).
 */
 
 namespace Lab_Collections
-{  
-    class EllipseCollection<TKey, TValue> : List<Ellipse> where TValue:Ellipse  //Задание 1
+{
+    class EllipseCollection<TKey, TValue>  where TValue : Ellipse  //Задание 1
     {
         public int Length { get; private set; } = 0;
 
@@ -31,7 +31,7 @@ namespace Lab_Collections
 
         private bool IsLimitedCollection;
 
-        public new Element this[int Index]
+        public Element this[int Index]
         {
             get
             {
@@ -66,7 +66,7 @@ namespace Lab_Collections
             {
                 Length++;
                 if (Elements != null)
-                {    
+                {
                     Element[] Buff = new Element[Length];
                     Array.Copy(Elements, Buff, Elements.Length);
                     Elements = new Element[Buff.Length];
@@ -146,7 +146,7 @@ namespace Lab_Collections
             index = -1;
         }
 
-        public new IEnumerator GetEnumerator()
+        public IEnumerator GetEnumerator()
         {
             return Elements.GetEnumerator();
         }
@@ -201,9 +201,11 @@ namespace Lab_Collections
                 Collection.Add(Rand.Next(10, 30), new Ellipse(Rand.Next(1, 10), Rand.Next(1, 10)));
             }
 
+            var CollectionElements = Collection.Elements;
+
             Console.WriteLine("Площади эллипсов:");
 
-            foreach (var item in Collection.Elements)
+            foreach (var item in CollectionElements) 
             {
                 Console.WriteLine(item.Value.S_Ellipse);
             }
@@ -212,18 +214,18 @@ namespace Lab_Collections
 
             Collection.SortByArea();
 
-            foreach (var item in Collection.Elements)
+            foreach (var item in CollectionElements)
             {
                 Console.WriteLine(item.Value.S_Ellipse);
             }
 
             Collection.WriteToFile();
 
-            var NegativeColletion = Collection.Elements.Where(i => i.Value.SomeNumber < 0);        //
+            var NegativeColletion = CollectionElements.Where(i => i.Value.SomeNumber < 0);         //
             var MinValue = NegativeColletion.Min(num => num.Value.SomeNumber);                    //    Задание 2
             var MaxValue = NegativeColletion.Max(num => num.Value.SomeNumber);                   //
             Console.WriteLine("Числа из класса Ellipse: \n");
-            foreach (var item in Collection.Elements)
+            foreach (var item in CollectionElements)
             {
                 Console.WriteLine(item.Value.SomeNumber);
             }
@@ -236,8 +238,8 @@ namespace Lab_Collections
             Console.WriteLine($"Максимальное отрицательное число: {MaxValue}\n" +
                 $"Минимальное отрицательное число: {MinValue}");
 
-            var GeneraCollection = Collection.Elements.Where(i => i.Value.SomeNumber > 0).  //Задание 3
-                OrderBy(i => i.Value.SomeNumber).Distinct().Take(Collection.Elements.Length);
+            var GeneraCollection = CollectionElements.Where(i => i.Value.SomeNumber > 0).  //Задание 3
+                OrderBy(i => i.Value.SomeNumber).Distinct().Take(CollectionElements.Length);
 
             Console.WriteLine("\n\nПоложительные элементы коллекции без повторений, расположенные по возрастанию: \n");
             foreach (var item in GeneraCollection)
@@ -245,7 +247,8 @@ namespace Lab_Collections
                 Console.WriteLine(item.Value.SomeNumber);
             }
 
-            Console.WriteLine("\n\nCompareTo: " + Collection.Elements[0].Value.CompareTo(new Ellipse(1, 1)));   //CompareTo()
+            Console.WriteLine("\n\nCompareTo: " + CollectionElements[Rand.Next(0, CollectionElements.Length-1)].
+                Value.CompareTo(new Ellipse(1, 1)));   //CompareTo()
         }
     }
 }
