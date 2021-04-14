@@ -248,7 +248,7 @@ namespace Lab_Collections
             }
 
             Console.WriteLine("\n\nCompareTo: " + CollectionElements[Rand.Next(0, CollectionElements.Length-1)].
-                Value.CompareTo(new Ellipse(1, 1)));   //CompareTo()
+                Value.CompareTo(new Ellipse(Rand.Next(1,10), Rand.Next(1, 10))));   //CompareTo()
         }
     }
 }

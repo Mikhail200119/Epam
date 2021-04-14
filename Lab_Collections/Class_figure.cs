@@ -79,13 +79,19 @@ namespace Figure
 
         public int CompareTo(Ellipse Obj)
         {
-            if (D1 == Obj.D1 && D2 == Obj.D2)
+            Console.WriteLine("\n" + S_Ellipse + " and " + Obj.S_Ellipse);
+
+            if (S_Ellipse == Obj.S_Ellipse)
+            {
+                return 0;
+            }
+            else if (S_Ellipse > Obj.S_Ellipse) 
             {
                 return 1;
             }
             else
             {
-                return 0;
+                return -1;
             }
         }
     }
