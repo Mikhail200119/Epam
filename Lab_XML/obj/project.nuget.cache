@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yQxmAQ6Ztnrq7pKYyjpt5TmeEayv+3qdcKufVKAk/s1+07GXDq+yXngfF2Tu2fwOceNHmTXOhbKwqHgf/7PwGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\koval\\Desktop\\epam\\Lab_XML\\Lab_XML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\koval\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\koval\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

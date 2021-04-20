@@ -1,0 +1,17 @@
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.exe
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.deps.json
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.runtimeconfig.json
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.runtimeconfig.dev.json
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.dll
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\Lab_XML.pdb
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.AssemblyInfoInputs.cache
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.AssemblyInfo.cs
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.dll
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.pdb
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.genruntimeconfig.cache
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.csprojAssemblyReference.cache
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+C:\Users\koval\Desktop\epam\Lab_XML\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.csproj.CoreCompileInputs.cache
+C:\Users\koval\Desktop\epam\Lab_XML\obj\Debug\netcoreapp3.1\Lab_XML.csproj.CopyComplete
