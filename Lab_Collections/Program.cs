@@ -161,7 +161,7 @@ namespace Lab_Collections
 
         public void WriteToFile()
         {
-            using (var File = new StreamWriter(Path.GetFullPath(@"C:\Users\koval\Desktop\epam\Lab_Collections\Outlet.out")))
+            using (var File = new StreamWriter(Path.GetFullPath("Outlet.out")))
             {
                 foreach (var item in Elements)
                 {
