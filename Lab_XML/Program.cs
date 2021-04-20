@@ -13,14 +13,11 @@ namespace Lab_XML
         {
             StringBuilder XmlFileName = new StringBuilder();
             List<string> FileLines = new List<string>();
-            int FileCounter = 0;
-
             using (StreamReader File = new StreamReader(Path.GetFullPath(@"C:\Users\koval\Desktop\epam\Lab_XML\SourseFile.txt")))
             {
                 while (!File.EndOfStream)
                 {
                     FileLines.Add(File.ReadLine());
-                    FileCounter++;
                 }
             }
             Console.WriteLine("Введите имя нового xml файла: ");
@@ -31,7 +28,7 @@ namespace Lab_XML
             XmlWriter Writer = XmlWriter.Create(XmlFileName.ToString(), Settings);
             Writer.WriteStartDocument();
             Writer.WriteStartElement("root");
-            for (int i = 0; i < FileCounter; i++)
+            for (int i = 0; i < FileLines.Count; i++)
             {
                 Writer.WriteStartElement("line");
                 Writer.WriteAttributeString("num", $"{i + 1}");
