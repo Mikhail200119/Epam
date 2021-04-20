@@ -22,7 +22,7 @@ namespace Lab_XML
         {
             StringBuilder XmlFileName = new StringBuilder();
             List<string> FileLines = new List<string>();
-            using (StreamReader File = new StreamReader(Path.GetFullPath(@"SourseFile.txt")))
+            using (StreamReader File = new StreamReader(Path.GetFullPath("SourseFile.txt")))
             {
                 while (!File.EndOfStream)
                 {
@@ -52,7 +52,7 @@ namespace Lab_XML
         static void SecondTask()
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load(Path.GetFullPath(@"XmlFile.xml"));
+            xDoc.Load(Path.GetFullPath("XmlFile.xml"));
             XmlElement Element = xDoc.DocumentElement;
             Dictionary<string, string> dictionary = new Dictionary<string, string>();
             string[] roots = { "one", "two", "three" };
