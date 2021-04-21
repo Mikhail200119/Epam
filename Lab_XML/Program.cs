@@ -54,8 +54,8 @@ namespace Lab_XML
             XmlDocument xDoc = new XmlDocument();
             xDoc.Load(Path.GetFullPath("XmlFile.xml"));
             XmlElement Element = xDoc.DocumentElement;
-            Dictionary<string, string> dictionary = new Dictionary<string, string>();
-            string[] roots = { "one", "two", "three" };
+            Dictionary<string, int> dictionary = new Dictionary<string, int>();
+            string[] SecondLevelElement = { "one", "two", "three" };
             XmlNodeList list = Element.SelectNodes("firstLevel");
             foreach (XmlNode item in list)
             {
@@ -63,14 +63,14 @@ namespace Lab_XML
                 int NumberOfIterations = 0;
                 do
                 {
-                    XmlNodeList BuffList = item.SelectNodes(roots[i]);
+                    XmlNodeList BuffList = item.SelectNodes(SecondLevelElement[i]);
                     foreach (XmlNode node in BuffList)
                     {
                         XmlNodeList NewList = node.ChildNodes;
                         NumberOfIterations = NewList.Count;
                         foreach (XmlNode NewNode in NewList)
                         {
-                            dictionary.Add(NewNode.Name, NewNode.Attributes.Count.ToString());
+                            dictionary.Add(NewNode.Name, NewNode.Attributes.Count);
                         }
                     }
                     i++;
